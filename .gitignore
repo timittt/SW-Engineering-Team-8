@@ -1,0 +1,9 @@
+# Ignore all filetypes
+*
+!*/
+
+# Exceptions
+!.gitignore
+!*.md
+!*.tex
+!*.pdf
