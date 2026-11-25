@@ -50,6 +50,7 @@
 
 * The price per seat shall be set by the driver when creating an offer. This replaces the "suggested contribution" from the Inception Document; the system does not calculate a price (Interview with Team 7, 24 Nov 2026).
 * Payment shall not be handled in the app; passengers pay the driver privately (Interview with Team 7, 24 Nov 2026).
+* There shall be no upper limit for the price per seat set by the driver (Interview with Team 7, 24 Nov 2026).
 * If a passenger does not pay, the driver can contact the moderators; the person is then rated badly and suspended for a period (Interview with Team 7, 24 Nov 2026; see Ratings and suspension below).
 
 ### Requirements not yet worked out
@@ -231,12 +232,14 @@ This item is not one of the questions from the Inception Document, § 3.5. It re
 ### Decisions from the interview
 
 * Driver and passengers shall rate each other after a ride (Interview with Team 7, 24 Nov 2026).
+* A rating shall be given on a scale of 1 to 10 stars (Interview with Team 7, 24 Nov 2026).
 * A user who receives too many bad ratings shall be suspended temporarily (Interview with Team 7, 24 Nov 2026).
 * After confirmed non-payment, the person concerned is rated badly and suspended for a period (Interview with Team 7, 24 Nov 2026).
 
 ### Requirements not yet worked out
 
 * The thresholds for an automatic suspension and the duration of a suspension are not defined.
+* It is not defined until when after a ride a rating can be given.
 * It is not defined what happens to the upcoming rides and bookings of a suspended user.
 
 ### Open questions
@@ -244,6 +247,7 @@ This item is not one of the questions from the Inception Document, § 3.5. It re
 * From which threshold of bad ratings is a user suspended?
 * How long does a suspension last, both after bad ratings and after non-payment?
 * What happens to the upcoming rides and bookings of a suspended user?
+* Until when after a ride can a rating be given?
 
 ---
 
@@ -252,8 +256,15 @@ This item is not one of the questions from the Inception Document, § 3.5. It re
 These decisions do not belong directly to one of Q1–Q7 but are part of the requirements.
 
 * One user can be both driver and passenger; there are no separate accounts for the two roles (Interview with Team 7, 24 Nov 2026).
-* The platform shall work like a marketplace (similar to eBay): users publish both ride offers and ride requests, and both can be filtered (Interview with Team 7, 24 Nov 2026).
+* The platform shall work like a marketplace (similar to eBay): users publish both ride offers and ride requests, and both can be filtered. No driver is asked directly for a ride; a passenger who finds no suitable offer publishes a ride request in the public list of requests instead (Interview with Team 7, 24 Nov 2026).
+* Drivers shall be able to offer recurring rides in addition to single rides (Interview with Team 7, 24 Nov 2026).
+* A ride shall count as completed only after it has been confirmed; it is not completed automatically at the departure time (Interview with Team 7, 24 Nov 2026).
+* The app shall be available in English and German (Interview with Team 7, 24 Nov 2026).
 * When creating an offer, the driver shall state how many pieces of luggage can be taken in total; ride requests state how many pieces of luggage are needed (Interview with Team 7, 24 Nov 2026).
+
+### Conflict to clarify: seat requests
+
+The Inception Document says that passengers "request a seat, which the driver accepts or declines" (Inception Document, § 3.2, p. 2) and lists the use case "Accept or decline seat request" (§ 6, p. 5). This can contradict the decision that no driver is asked directly for a ride. It must be clarified whether booking a seat on an offer is immediately binding or still needs the driver's confirmation (see Open_Questions.md, OQ-21).
 
 ## UI requirements from the interview
 
