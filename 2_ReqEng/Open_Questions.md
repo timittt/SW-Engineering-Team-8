@@ -33,7 +33,7 @@
 | OQ-24 | Ratings | Until when after a ride can a rating be given? | same as chat|
 | OQ-25 | Access | Are all DHBW locations and their e-mail domains admitted, or only one location? | all mit dhbw email |
 | OQ-26 | Performance | How many registered and simultaneously active users are expected? | es muss eine umfrage es müssen genug sein |
-| OQ-27 | Scope | Which functions are mandatory for the prototype (one quarter, four developers), and which can follow in a later release? |fahrten bereitsellen, buchen, (in app chat,) not essiantial ratings. Bearbeiten und cancellen wichtig.  |
+| OQ-27 | Scope | Which functions are mandatory for the prototype (one quarter, four developers), and which can follow in a later release? |fahrten bereitsellen, buchen, (in app chat,) not essiantial ratings. Bearbeiten und cancellen wichtig.    |
 
 ## Sources
 
